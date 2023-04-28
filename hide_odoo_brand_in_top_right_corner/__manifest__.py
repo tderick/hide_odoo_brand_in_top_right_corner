@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "hide_odoo_brand_in_top_right_corner",
+    'name': "Hide Odoo Brand In Top Right Corner",
     'summary': """
         Remove *Documentation*, *Support*, *My Odoo.com account* from the top right corner
     """,
