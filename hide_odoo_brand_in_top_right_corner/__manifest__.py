@@ -13,7 +13,11 @@
     'category': 'Customizations',
     'version': '14.0.1',
     'depends': ['base'],
-    'qweb': ['static/src/xml/*.xml'],
+    'assets': {
+        'web.assets_backend': [
+            'hide_odoo_brand_in_top_right_corner/static/src/js/extended_user_menu.js',
+        ],
+    },
     'images': ['static/description/banner.png'],
     'license': 'AGPL-3',
     'installable': True,
